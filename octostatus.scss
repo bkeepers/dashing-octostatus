@@ -1,0 +1,23 @@
+$good_color:#396;
+$minor_color:#F29D50;
+$major_color:#c30;
+
+.widget-octostatus {
+  padding: 1em;
+  color: #fff;
+  vertical-align: bottom !important;
+  transition: background-color 0.5s ease;
+  background-color: $good_color;
+
+  &.minor { background-color: $minor_color; }
+  &.major { background-color: $major_color; }
+
+  img {
+    margin-bottom: 0.3em;
+  }
+
+  p {
+    font-size: 16px;
+    height: 50%;
+  }
+}
